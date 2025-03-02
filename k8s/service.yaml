@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: spring-boot-service
+  namespace: dev01
 spec:
   selector:
     app: spring-boot-app
